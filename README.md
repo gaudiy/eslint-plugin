@@ -10,10 +10,10 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-gaudiy`:
+Next, install `@gaudiy/eslint-plugin`:
 
 ```
-$ npm install eslint-plugin-gaudiy --save-dev
+$ npm install @gaudiy/eslint-plugin --save-dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-gaudiy` globally.
@@ -24,7 +24,7 @@ Add `gaudiy` to the plugins section of your `.eslintrc` configuration file. You 
 
 ```json
 {
-  "plugins": ["gaudiy"]
+  "plugins": ["@gaudiy"]
 }
 ```
 
@@ -33,7 +33,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "gaudiy/rule-name": 2
+    "@gaudiy/rule-name": 2
   }
 }
 ```

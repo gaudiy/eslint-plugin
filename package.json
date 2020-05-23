@@ -1,5 +1,5 @@
 {
-  "name": "@gaudiy/eslint-plugin-gaudiy",
+  "name": "@gaudiy/eslint-plugin",
   "version": "0.0.1",
   "license": "ISC",
   "description": "custom rule plugin for gaudiy front application",
