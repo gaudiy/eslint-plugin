@@ -1,13 +1,13 @@
 {
   "name": "@gaudiy/eslint-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "ISC",
   "description": "custom rule plugin for gaudiy front application",
   "keywords": [
     "eslint-plugin"
   ],
   "engines": {
-    "node": ">=12"
+    "node": ">=10"
   },
   "author": "winor30",
   "main": "lib/index.js",
