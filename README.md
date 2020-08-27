@@ -7,13 +7,13 @@ custom rule plugin for gaudiy front application
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ npm i eslint --save-dev
+$ yarn install eslint -D
 ```
 
 Next, install `@gaudiy/eslint-plugin`:
 
 ```
-$ npm install @gaudiy/eslint-plugin --save-dev
+$ yarn install @gaudiy/eslint-plugin -D
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-gaudiy` globally.
