@@ -1,0 +1,18 @@
+version: 2
+updates:
+  # root
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      # 毎日更新
+      interval: "daily"
+    target-branch: "develop"
+    labels:
+      - "dependencies"
+      - "root"
+    pull-request-branch-name:
+      separator: "-"
+    # 更新を無視するdependencyがある場合。
+    # ignore:
+    #   - dependency-name: ''
+    #   - dependency-name: ''
