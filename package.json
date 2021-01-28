@@ -1,5 +1,6 @@
 {
   "name": "@gaudiy/eslint-plugin",
+  "author": "gaudiy",
   "version": "0.0.3",
   "license": "ISC",
   "description": "custom rule plugin for gaudiy front application",
@@ -7,9 +8,8 @@
     "eslint-plugin"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
-  "author": "winor30",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
